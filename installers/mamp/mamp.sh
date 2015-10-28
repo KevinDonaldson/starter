@@ -113,7 +113,7 @@ cat > ${APACHE_CONF_DIR}/users/$(logname).conf <<EOF
 </IfModule>
 
 
-## HTTP `.dev`
+## HTTP \`.dev\`
 ################################################################################
 
 <VirtualHost *.dev:80>
@@ -135,7 +135,7 @@ cat > ${APACHE_CONF_DIR}/users/$(logname).conf <<EOF
 </VirtualHost>
 
 
-## HTTPS/SSL `.dev`
+## HTTPS/SSL \`.dev\`
 ################################################################################
 
 # Listen for secure traffic
